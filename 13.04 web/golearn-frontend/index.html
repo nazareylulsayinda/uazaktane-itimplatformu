@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoLearn | E-Learning Platform</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container header-content">
+        <div class="logo">
+          <span class="logo-icon">▲</span>
+          <span>GoLearn</span>
+        </div>
+        <nav id="nav-links" class="flex gap-4 items-center">
+            <!-- Nav links will be injected by main.js -->
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+        <!-- Toast notifications placeholder -->
+        <div id="toast-container" style="position: fixed; top: 80px; right: 20px; z-index: 9999;"></div>
+    </div>
+
+    <!-- Main Content Area where pages are injected -->
+    <main class="container" id="app-content">
+      <div style="text-align:center; padding-top: 5rem;" class="animate-fade-in">
+        <div class="logo-icon" style="font-size: 3rem; margin-bottom: 1rem;">⚙️</div>
+        <h2>Loading GoLearn...</h2>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
